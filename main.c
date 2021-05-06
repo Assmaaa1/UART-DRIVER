@@ -5,12 +5,7 @@
 // CR1 register to enable USART (bit 13 )
 // configure PIN (PD5 and PD6) as USART pins GPIOD_AFRL=AF7
 
-/*
-This program allows to display an input caracter, that is entred through keyboard, using UART
 
-
-
-*/
 #define GPIOD_EN_CLK (1<<3)
 #define USART2_CLK_EN (1<<17)
 #define USART_TX_EN (1<<3)
